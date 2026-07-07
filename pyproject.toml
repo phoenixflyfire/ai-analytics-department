@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai_analytics_department"
+version = "0.1.0"
+
+[tool.setuptools]
+# This forces setuptools to include these specific folders as your package modules
+package-dir = {"ai_analytics_department" = "."}
+packages = ["ai_analytics_department"]
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks test as slow (deselect with '-m \"not slow\"')",
+]
+
+[project.scripts]
+mcp-data-server = "mcp_server.server:main"
+

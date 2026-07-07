@@ -1,0 +1,10 @@
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
+]
+
+# Add this section below to explicitly point Pyrefly to your .venv
+[tool.pyrefly]
+search-path = [
+    "ai_analytics_department/.venv/lib/python3.11/site-packages"
+]
