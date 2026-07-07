@@ -4,7 +4,7 @@ A Google ADK 2.3.0 multi-agent AI analytics system powered by Gemini AI Models, 
 📖 Project Overview → [Watch the 2‑minute demo on YouTube](https://youtu.be/8T9QOhk2r3Y)
 
 ## TL;DR
-- **Main intro / front‑facing story:** `KAGGLE_WRITEUP.md` (For the project narrative, motivation, and Kaggle‑submission details)
+- **Main intro / front‑facing story:** `docs/solution_writeup.md` (For the project narrative, motivation, and Kaggle‑submission details)
 - **Technical how‑to / reference:** `README.md` (with a brief link back to the write‑up)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -51,7 +51,6 @@ _manager (Q&A)              │
                                               └→ senior_analytics_manager (Q&A)
 ```
 
-![pipeline_workflow](data/processed/pipeline_workflow.png)
 
 
 ## Key Design Decisions
@@ -104,7 +103,6 @@ adk web   # opens http://127.0.0.1:8000
 # or use the helper scripts:
 # ./start_adk.sh
 # ./stop_adk.sh
-# ./run_adk.sh
 ```
 
 ## Deployment (Cloud Run)
@@ -145,7 +143,7 @@ pytest tests/test_trajectory_eval.py -v --slow  # full pipeline + judge LLM scor
 A small sample from the House Prices Advanced Regression Techniques dataset is provided under `data/raw/house-prices-advanced-regression-techniques/`.  
 - `train.csv` – full training set  
 - `test.csv` – test set  
-- `train_adk.csv` – a ~1 500‑row subset suitable for quick demos  
+- `adk_train.csv` – a ~1 500‑row subset suitable for quick demos  
 - `data_description.txt` - description of features fields
 
 You may substitute any CSV (≈1 000–2 000 rows works well) placed in `data/raw/`.
@@ -180,4 +178,4 @@ You may substitute any CSV (≈1 000–2 000 rows works well) placed in `dat
 
 
 ## License
-MIT – see the `LICENSE` file for details.
+MIT
