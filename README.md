@@ -1,7 +1,7 @@
 # ai-analytics-department
 A Google ADK 2.3.0 multi-agent AI analytics system powered by Gemini AI Models, that delivers end‑to‑end data analysis and machine‑learning via a star‑topology workflow. Ingest any CSV and text files of datasets, watch agents execute the pipeline step‑by‑step, and then interact with the results with a Senior Analyst powered by MCP tools.
 
-📖 Project Overview → [Watch the 2‑minute demo on YouTube](https://www.youtube.com/)
+📖 Project Overview → [Watch the 2‑minute demo on YouTube](https://youtu.be/8T9QOhk2r3Y)
 
 ## TL;DR
 - **Main intro / front‑facing story:** `KAGGLE_WRITEUP.md` (For the project narrative, motivation, and Kaggle‑submission details)
@@ -10,7 +10,7 @@ A Google ADK 2.3.0 multi-agent AI analytics system powered by Gemini AI Models, 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
 [![ADK 2.3.0](https://img.shields.io/badge/ADK-2.3.0-brightgreen.svg)](https://google.github.io/adk-docs/)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/your-username/ai-analytics-department/actions)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/phoenixflyfire/ai-analytics-department)
 
 
 
@@ -85,7 +85,7 @@ Tools share a `DataFrame` via `schemas/shared_data.DataContainer`. The `data_eng
 ## Quick start
 ```bash
 # 1️⃣ Clone & enter
-git clone https://github.com/your-username/ai-analytics-department.git
+git clone https://github.com/phoenixflyfire/ai-analytics-department
 cd ai-analytics-department
 
 # 2️⃣ Create virtualenv & install deps

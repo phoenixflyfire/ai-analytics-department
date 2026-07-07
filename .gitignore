@@ -1,0 +1,10 @@
+.adk/
+.venv/
+__pycache__/
+*.egg-info/
+local_logs/
+.pytest_cache/
+.uv_python/
+.vscode/
+data/processed/
+*.md~

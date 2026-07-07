@@ -2,8 +2,8 @@
 
 > **Track**: Agents for Business / Freestyle  
 > **Submission for**: Google's 5-Day AI Agents: Intensive Vibe Coding Course With Google  
-> **GitHub**: [github.com/your-username/ai-analytics-department](https://github.com/your-username/ai-analytics-department)
-
+> **GitHub**: [https://github.com/phoenixflyfire/ai-analytics-department]
+> **YouTube**: [https://youtu.be/8T9QOhk2r3Y]
 ---
 
 ## 🎯 The Problem
@@ -175,7 +175,7 @@ Run with: `pytest tests/test_star_topology.py -v`
 ## 🛠️ Setup
 
 ```bash
-git clone https://github.com/your-username/ai-analytics-department.git
+git clone https://github.com/phoenixflyfire/ai-analytics-department
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 export GEMINI_API_KEY="your-key"
